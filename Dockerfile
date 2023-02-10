@@ -12,4 +12,4 @@ EXPOSE 8080
 WORKDIR $HOME_DIR
 RUN pip install -r requirements.txt
 ENTRYPOINT ["python", "app.py"]
-#test
+
