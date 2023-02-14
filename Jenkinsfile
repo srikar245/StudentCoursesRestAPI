@@ -4,6 +4,7 @@ pipeline {
         stage('git-clone') {
             steps {
                 sh 'https://github.com/srikar245/StudentCoursesRestAPI.git'
+                sh 'cd Pipeline'
             }
         }
         stage('Build') {
