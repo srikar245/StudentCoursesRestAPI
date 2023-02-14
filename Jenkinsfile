@@ -8,11 +8,8 @@ pipeline {
         }
         stage('Build') {
             steps {
-                 sh 'cd  Pipeline@tmp'
                  sh 'docker image build -t studentcourserestservice:1.0 .'
             }
         }
     }
 }
-
-//test
